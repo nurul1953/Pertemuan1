@@ -1,0 +1,15 @@
+function fungsi1(callback, callback1) {
+  console.log("Hai");
+  callback();
+  callback1();
+}
+
+// Anonymous function(fungsi tanpa bernama)
+fungsi1(
+  function () {
+    console.log("Assalamu'alaikum");
+  },
+  function () {
+    console.log("Assalamu'alaikum");
+  }
+);
